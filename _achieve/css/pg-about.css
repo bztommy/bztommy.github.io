@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+/* pg
+ * ================================================================================= */
+.pg-about-title {
+    padding-top: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.pg-section {
+    margin-top: 60px;
+}
+
+.pg-about-text {
+    margin-top: 30px;
+    color: #8d8f90;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* firstview
+ * ================================================================================= */
+
+.pg-about-firstview-icon-box {
+    position: absolute;
+    top: 11%;
+    height: 89%;
+    width: 100%;
+}
+
+.pg-about-firstview-icon {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+.pg-about-firstview-icon-img {
+    width: 70px;
+}
+
+.pg-about-firstview-title {
+    width: 450px;
+    margin-top: 100px;
+    color: #fff;
+    font-size: 56px;
+}
+
+.pg-about-firstview-text {
+    width: 300px;
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+    word-wrap: normal;
+}
+
+/* main
+ * ================================================================================= */
+.pg-about-greet-text:first-child {
+    margin-top: 60px;
+}
+.pg-about-greet-text {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.pg-about-learn-title {
+    color: #464b4f;
+    font-size: 20px;
+}
+
+.pg-about-learn-text {
+    color: #8d8f90;
+    font-size: 14px;
+}
+
+
+.pg-about-skill {
+    Background-color: #23232e;
+    text-align: center;
+}
+
+
+.pg-about-hobby {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .pg-about-firstview-title {
+        width: 300px;
+        font-size: 30px;
+    }
+}
